@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fanlinewire-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fanlinewire.com/
+FanLine Wire provides a real-time FanDuel odds API delivering live and pre‑match moneyline, spread, totals, futures and outrights. Data is available via a push WebSocket stream and a REST discovery endpoint. The service covers all major US sports, offering comprehensive market coverage for developers building betting, analytics, or odds‑comparison applications. The API includes endpoints for board snapshots, market listings, state‑specific events, and detailed market data, with flexible authentication via API key header or query parameter. Documentation, pricing, status, and legal pages are publicly accessible.
+
+**Areas:** Sports · Betting · Odds API · Real-time · FanDuel · Data
+
+## fanlinewire-com on APIs.io
+
+Everything profiled for fanlinewire-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fanlinewire-com/](https://apis.io/providers/fanlinewire-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [FanLine Wire API](https://apis.io/apis/fanlinewire-com/fanline-wire-api/) — FanLine Wire provides real-time FanDuel odds via REST and WebSocket.
+- [fanlinewire-com API](https://apis.io/apis/fanlinewire-com/fanlinewire-com-api/) — fanlinewire-com API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1BoardJsonResponse](https://apis.io/schemas/fanlinewire-com/fanlinewire-com-get-v1-board-json-response/)
+- [GetV1MarketsResponse](https://apis.io/schemas/fanlinewire-com/fanlinewire-com-get-v1-markets-response/)
+- [GetV1StateEventsResponse](https://apis.io/schemas/fanlinewire-com/fanlinewire-com-get-v1-state-events-response/)
+- [GetV1StateMarketsResponse](https://apis.io/schemas/fanlinewire-com/fanlinewire-com-get-v1-state-markets-response/)
+- [PostMcpRequest](https://apis.io/schemas/fanlinewire-com/fanlinewire-com-post-mcp-request/)
+- [PostMcpResponse](https://apis.io/schemas/fanlinewire-com/fanlinewire-com-post-mcp-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fanlinewire Com Context](https://apis.io/jsonld/fanlinewire-com/fanlinewire-com-context/)
+
+#### Examples (1)
+
+Example requests and responses.
+
+- [Fanlinewire Com Mcp Tools](https://apis.io/examples/fanlinewire-com/fanlinewire-com-mcp-tools/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [fanlinewire-com API Rules](https://apis.io/rules/fanlinewire-com/fanlinewire-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fanlinewire Com Authentication](https://apis.io/security/fanlinewire-com/fanlinewire-com-authentication/)
+- [Fanlinewire Com Domain Security](https://apis.io/security/fanlinewire-com/fanlinewire-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Fanlinewire Com Scopes](https://apis.io/scopes/fanlinewire-com/fanlinewire-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fanlinewire Com Plans Pricing](https://apis.io/plans/fanlinewire-com/fanlinewire-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Fanlinewire Com Rate Limits](https://apis.io/rate-limits/fanlinewire-com/fanlinewire-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fanlinewire.com/)
+- [Documentation](https://fanlinewire.com/docs)
+- [Pricing](https://fanlinewire.com/fanduel-api-pricing)
+- [Terms of service](https://fanlinewire.com/terms)
+- [Privacy policy](https://fanlinewire.com/privacy)
+- [Status](https://fanlinewire.com/status)
+
+## API Evangelist rating
+
+**Kin Score 49.0** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 44.2 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 31.6 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fanlinewire-com/](https://apis.io/providers/fanlinewire-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for fanlinewire-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fanlinewire-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
